@@ -1,12 +1,17 @@
 # Grid Layer
+
 Create columns or gutters as layers in Sketch. Useful if you need a grid on a component level.
 
+![Grid-layer](https://github.com/franklymrshankly/Grid-Layer/blob/master/grid-layer.gif)
+
 ## What does it do?
+
 Creates a grid over the selected layer.
 
 You can choose to create gutters or columns.
 
 ## How do I use it?
+
 Select a layer you want to apply the grid to. When you run the plugin, you will be prompted to enter the following:
 
 **Gutters on the outside?** (Yes/No)
