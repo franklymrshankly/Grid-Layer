@@ -1,0 +1,27 @@
+{
+  "name": "grid-layer",
+  "description": "",
+  "version": "0.1.0",
+  "engines": {
+    "sketch": ">=49.0"
+  },
+  "skpm": {
+    "name": "grid-layer",
+    "manifest": "src/manifest.json",
+    "main": "grid-layer.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ]
+  },
+  "repository": "https://github.com/franklymrshankly/Grid-Layer.git",
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.5.11"
+  },
+  "author": "Jonathan Tran <Jon@jon-tm00316-imac.lon.thomac.net>"
+}
