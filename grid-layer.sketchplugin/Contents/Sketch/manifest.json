@@ -8,12 +8,12 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "Make gutters",
+      "name": "Create gutters",
       "identifier": "grid-layer.gutter-identifier",
       "script": "gutter.js"
     },
     {
-      "name": "Make columns",
+      "name": "Create columns",
       "identifier": "grid-layer.column-identifier",
       "script": "column.js"
     }
