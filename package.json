@@ -6,7 +6,7 @@
     "sketch": ">=49.0"
   },
   "skpm": {
-    "name": "grid-layer",
+    "name": "Grid Layer",
     "manifest": "src/manifest.json",
     "main": "grid-layer.sketchplugin",
     "assets": [
