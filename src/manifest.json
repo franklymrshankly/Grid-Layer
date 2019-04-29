@@ -6,6 +6,8 @@
   "compatibleVersion": 3,
   "bundleVersion": 1,
   "icon": "icon.png",
+  "identifier": "com.github.franklymrshankly.Grid-Layer",
+  "appcast": "https://api.sketchpacks.com/v1/plugins/com.github.franklymrshankly/Grid-Layer/appcast",
   "commands": [
     {
       "name": "Create gutters",
