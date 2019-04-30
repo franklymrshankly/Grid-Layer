@@ -19,3 +19,7 @@ Select a layer you want to apply the grid to. When you run the plugin, you will 
 **Column amount** (Give a number of how many columns you want)
 
 **Gutter width** (Give a number of how wide you want the gutters to be)
+
+You can also choose to create columns rather than gutters from the window menu:
+
+![Grid-layer-columns](https://github.com/franklymrshankly/Grid-Layer/blob/master/grid-layer-col.gif)
