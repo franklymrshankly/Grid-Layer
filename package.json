@@ -1,6 +1,6 @@
 {
   "name": "grid-layer",
-  "description": "",
+  "description": "Create columns or gutters as layers. Useful if you need a grid on a component level",
   "version": "0.1.0",
   "engines": {
     "sketch": ">=49.0"
