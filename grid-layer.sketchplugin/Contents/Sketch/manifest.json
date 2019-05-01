@@ -6,6 +6,8 @@
   "compatibleVersion": 3,
   "bundleVersion": 1,
   "icon": "icon.png",
+  "identifier": "com.github.franklymrshankly.Grid-Layer",
+  "appcast": "https://api.sketchpacks.com/v1/plugins/com.github.franklymrshankly/Grid-Layer/appcast",
   "commands": [
     {
       "name": "Create gutters",
@@ -25,7 +27,5 @@
       "grid-layer.column-identifier"
     ]
   },
-  "identifier": "grid-layer",
-  "disableCocoaScriptPreprocessor": true,
-  "appcast": "https://raw.githubusercontent.com/franklymrshankly/Grid-Layer/master/.appcast.xml"
+  "disableCocoaScriptPreprocessor": true
 }
