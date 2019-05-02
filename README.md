@@ -1,3 +1,5 @@
+<img src="https://github.com/franklymrshankly/Grid-Layer/blob/master/assets/icon.png" alt="Grid layer icon" width="80">
+
 # Grid Layer
 
 Create columns or gutters as layers in Sketch. Useful if you need a grid on a component level.
