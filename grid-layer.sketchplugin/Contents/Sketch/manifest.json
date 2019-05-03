@@ -1,7 +1,7 @@
 {
   "name": "Grid Layer",
   "description": "Create columns or gutters as layers. Useful if you need a grid on a component level",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Jonathan Tran",
   "compatibleVersion": 3,
   "bundleVersion": 1,
