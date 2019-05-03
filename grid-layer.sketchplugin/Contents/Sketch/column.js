@@ -234,6 +234,7 @@ __webpack_require__.r(__webpack_exports__);
   }, function (err, value) {
     if (err) {
       complete = false;
+      log("selector " + complete);
       return;
     }
 
@@ -247,6 +248,7 @@ __webpack_require__.r(__webpack_exports__);
       }, function (err, value) {
         if (err) {
           complete = false;
+          log("col " + complete);
           colAmountIsNan = false;
           colAmount = 12;
           return;
@@ -273,6 +275,7 @@ __webpack_require__.r(__webpack_exports__);
         }, function (err, value) {
           if (err) {
             complete = false;
+            log("gutter " + complete);
             gutterWidthIsNaN = false;
             gutterWidth = 12;
             return;

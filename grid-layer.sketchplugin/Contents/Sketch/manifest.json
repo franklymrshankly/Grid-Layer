@@ -12,12 +12,14 @@
     {
       "name": "Create gutters",
       "identifier": "grid-layer.gutter-identifier",
-      "script": "gutter.js"
+      "script": "main.js",
+      "handler": "gutters"
     },
     {
       "name": "Create columns",
       "identifier": "grid-layer.column-identifier",
-      "script": "column.js"
+      "script": "main.js",
+      "handler": "columns"
     }
   ],
   "menu": {
