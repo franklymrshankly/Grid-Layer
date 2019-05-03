@@ -15,8 +15,8 @@ export default function(type, min, key1, key2) {
   var gutterWidthMessage = "Gutter width";
   var gutterWidth = null;
   var inputComplete = true;
-  var settingsCol = Settings.sessionVariable(key1);
-  var settingsGutter = Settings.sessionVariable(key2);
+  var settingsCol = Settings.settingForKey(key1);
+  var settingsGutter = Settings.settingForKey(key2);
 
   if (settingsCol) {
     colAmount = settingsCol;
@@ -59,7 +59,7 @@ export default function(type, min, key1, key2) {
             colAmountIsNan = false;
             return;
           }
-          Settings.setSessionVariable(key1, value);
+          Settings.setSettingForKey(key1, value);
           colAmount = value;
           colAmountMessage = "Column amount - is not a number";
         }
@@ -88,7 +88,7 @@ export default function(type, min, key1, key2) {
               gutterWidthIsNaN = false;
               return;
             }
-            Settings.setSessionVariable(key2, value);
+            Settings.setSettingForKey(key2, value);
             gutterWidth = value;
             gutterWidthMessage = "Gutter width - is not a number";
           }
