@@ -363,9 +363,13 @@ function columns() {
           }
         });
 
-        if (i % 2 == 0) {
+        if (input.gutterWidth == 0) {
+          if (i % 2 == 0) {
+            column.style.opacity = 0.4;
+          } else column.style.opacity = 0.5;
+        } else {
           column.style.opacity = 0.4;
-        } else column.style.opacity = 0.5;
+        }
       }
     };
 
