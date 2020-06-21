@@ -2,7 +2,7 @@
   "name": "Grid Layer",
   "description": "Create columns or gutters as layers. Useful if you need a grid on a component level",
   "homepage": "https://github.com/franklymrshankly/Grid-Layer",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "author": "Jonathan Tran",
   "compatibleVersion": 3,
   "bundleVersion": 1,
@@ -13,13 +13,13 @@
     {
       "name": "Create gutters",
       "identifier": "grid-layer.gutter-identifier",
-      "script": "main.js",
+      "script": "__main.js",
       "handler": "gutters"
     },
     {
       "name": "Create columns",
       "identifier": "grid-layer.column-identifier",
-      "script": "main.js",
+      "script": "__main.js",
       "handler": "columns"
     }
   ],
