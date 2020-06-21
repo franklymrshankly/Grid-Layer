@@ -1,7 +1,7 @@
 {
   "name": "grid-layer",
   "description": "Create columns or gutters as layers. Useful if you need a grid on a component level",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "engines": {
     "sketch": ">=49.0"
   },
@@ -21,7 +21,7 @@
     "postinstall": "npm run build && skpm-link"
   },
   "devDependencies": {
-    "@skpm/builder": "^0.5.11",
+    "@skpm/builder": "^0.7.7",
     "serialize-javascript": ">=2.1.1"
   },
   "author": "Jonathan Tran"
